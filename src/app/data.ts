@@ -112,7 +112,7 @@ export const projects = [
   {
     id: "whats-awesome",
     title: "Whats Awesome",
-    content: `Lorem ipsum...`,
+    content: `Lorem ipsum sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
     photoUrl: "/whatsawesome.png",
     tags: [
       "react",
