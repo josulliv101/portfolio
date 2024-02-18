@@ -28,6 +28,8 @@ export default function Card({
           className="min-w-[278px] h-full object-cover w-[280px] min-h-[202px]"
           src={photoUrl}
           alt={title}
+          width={278}
+          height={202}
         />
       </div>
       <div className="flex flex-wrap px-4 py-2">
