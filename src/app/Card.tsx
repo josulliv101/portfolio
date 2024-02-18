@@ -18,14 +18,14 @@ export default function Card({
   return (
     <div
       className={cn(
-        `bg-white border p-4 rounded-xl shadow-sm flex items-start gap-8 min-h-[240px] dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]`,
+        `bg-white border p-4 rounded-xl shadow-sm flex flex-col md:flex-row items-start gap-8 min-h-[240px] dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]`,
         className,
         { ["hidden"]: !isVisible }
       )}
     >
-      <div className="relative w-full h-full rounded-t-xl p-0 border rounded-sm max-w-[280px]">
+      <div className="relative w-full h-full rounded-t-xl p-0 border rounded-sm md:max-w-[280px]">
         <Image
-          className="min-w-[278px] h-full object-cover w-[280px] min-h-[202px]"
+          className="w-full md:min-w-[278px] h-full object-cover md:w-[280px] md:min-h-[202px]"
           src={photoUrl}
           alt={title}
           width={278}
@@ -58,7 +58,10 @@ export default function Card({
           )}
           {!callToAction.href && (
             <button
-              className={cn(CALL_TO_ACTION_CLASSES, "bg-gray-100")}
+              className={cn(
+                CALL_TO_ACTION_CLASSES,
+                "text-center justify-center bg-gray-100"
+              )}
               disabled={callToAction.disabled}
             >
               {callToAction.label}

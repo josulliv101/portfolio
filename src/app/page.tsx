@@ -7,7 +7,7 @@ import Filter from "./Filter";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-start p-4 py-12 md:p-12 lg:p-24 gap-12">
+    <main className="flex flex-col items-center justify-start p-4 py-12 md:p-12 gap-12">
       <h2 className="text-5xl font-light">Portfolio</h2>
       <a
         href="https://github.com/josulliv101/whatsawesome"
