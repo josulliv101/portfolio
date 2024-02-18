@@ -15,6 +15,7 @@ export default function Filter() {
             key={id}
             aria-pressed={id === activeFilter ? true : undefined}
             onClick={() => updateFilter(id)}
+            className="hover:bg-blue-500/10"
           >
             {label}
           </Badge>
