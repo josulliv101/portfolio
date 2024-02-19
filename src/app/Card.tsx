@@ -4,7 +4,7 @@ import { PortfolioProject, PortfolioState } from "./store";
 import { cn } from "./utils";
 
 const CALL_TO_ACTION_CLASSES =
-  "md:max-w-64 md:self-end mt-6 py-2 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent hover:bg-blue-500/90 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:bg-blue-800/30 dark:hover:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600";
+  "md:max-w-64 md:self-end mt-6 py-2 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent hover:bg-blue-500/90 disabled:opacity-60 disabled:pointer-events-none dark:text-blue-500 dark:hover:bg-blue-800/30 dark:hover:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600";
 
 export default function Card({
   title,
@@ -59,7 +59,7 @@ export default function Card({
               href={callToAction.href}
               className={cn(
                 CALL_TO_ACTION_CLASSES,
-                "bg-blue-500 text-white text-center justify-center"
+                "bg-blue-500 dark:bg-blue-950 text-white dark:text-gray-200 text-center justify-center"
               )}
             >
               {callToAction.label}
@@ -69,7 +69,7 @@ export default function Card({
             <button
               className={cn(
                 CALL_TO_ACTION_CLASSES,
-                "text-center justify-center bg-gray-100"
+                "text-center justify-center bg-gray-100 dark:bg-gray-700 dark:text-white"
               )}
               disabled={callToAction.disabled}
             >

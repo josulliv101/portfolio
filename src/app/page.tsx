@@ -7,7 +7,7 @@ import Filter from "./Filter";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-start p-4 py-12 md:p-12 gap-12">
+    <main className="flex flex-col items-center justify-start p-4 py-12 md:p-12 gap-12 dark:bg-gray-900">
       <h2 className="text-5xl font-light">Portfolio</h2>
       <a
         href="https://github.com/josulliv101/whatsawesome"
@@ -26,6 +26,11 @@ export default function Home() {
         <span>View Code Sample</span>
       </a>
       <p className="font-normal text-2xl w-full md:w-2/3 text-gray-500 text-center leading-relaxed text-balance">
+        I’m a deadline driven, highly self-motivated, proven engineer who excels
+        at problem solving, has painstaking attention to detail, and is
+        extremely reliable.
+      </p>
+      <p className="font-normal text-lg w-full text-gray-500 text-center leading-relaxed text-balance">
         Please find a sampling of my work below - not all are freely accessible
         to the public. The list can be filtered by the tags below.
       </p>
