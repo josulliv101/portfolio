@@ -14,7 +14,8 @@ export default function Card({
   className,
   isVisible,
   callToAction,
-}: PortfolioProject) {
+  position,
+}: PortfolioProject & { position: number }) {
   return (
     <div
       className={cn(
@@ -23,13 +24,14 @@ export default function Card({
         { ["hidden"]: !isVisible }
       )}
     >
-      <div className="relative w-full h-full rounded-t-xl p-0 border rounded-sm md:max-w-[280px]">
+      <div className="relative w-full h-full p-0 border rounded-sm md:max-w-[280px]">
         <Image
           className="w-full md:min-w-[278px] h-full object-cover md:w-[280px] md:min-h-[202px]"
           src={photoUrl}
           alt={title}
           width={278}
           height={202}
+          priority={position === 0}
         />
       </div>
       <div className="flex flex-wrap px-4 py-2">

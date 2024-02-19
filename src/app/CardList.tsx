@@ -14,8 +14,8 @@ export default function CardList() {
         {filter !== FILTER_ID_ALL ? ` / ${filter}` : ""}
       </p>
       <div className="flex gap-8 items-start flex-col">
-        {projects.map((card) => (
-          <Card key={card.id} {...card} />
+        {projects.map((card, i) => (
+          <Card key={card.id} position={i} {...card} />
         ))}
       </div>
     </div>

@@ -8,6 +8,22 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+:root .theme-light-icon {
+  display: none;
+}
+
+:root .theme-dark-icon {
+  display: block;
+}
+
+:root.dark .theme-dark-icon {
+  display: none;
+}
+
+:root.dark .theme-light-icon {
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

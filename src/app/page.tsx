@@ -8,9 +8,9 @@ import Filter from "./Filter";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-start p-4 py-12 md:p-12 gap-12 dark:bg-gray-900">
-      <h2 className="text-5xl font-light">Portfolio</h2>
+      <h2 className="text-5xl font-light dark:text-white">Portfolio</h2>
       <a
-        href="https://github.com/josulliv101/whatsawesome"
+        href="https://github.com/josulliv101/pigpile"
         target="_blank"
         className="bg-blue-500 hover:bg-blue-500/90 text-white drop-shadow-md font-normal py-2 px-4 rounded inline-flex items-center gap-4"
       >

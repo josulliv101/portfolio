@@ -4,6 +4,7 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import Header from "./Header";
 import Footer from "./Footer";
+import { ThemeProvider } from "./ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,12 +19,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
-        <Analytics />
+        <ThemeProvider attribute="class">
+          <Header />
+          {children}
+          <Footer />
+          <Analytics />
+        </ThemeProvider>
       </body>
     </html>
   );
