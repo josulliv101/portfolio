@@ -52,7 +52,7 @@ export const projects = [
       "I was a member of a 2-person frontend team that created an embeddable React app that allows educators to create online courses for students. The thumbnail shows the student view of a lesson within a course.",
       "Functionality for students includes adding annotations to course text/images, dictionary lookups of selected text, audio & video playback, and comprehension questions at the bottom of each lesson.",
       `Educators can create & assemble different content types (richtext, images, videos, audio, questions) into a multi-page course, use a drag/drop interface to update layout/content placement, leverage other educators' shared course content, and view analytics data (mostly relating to question-response breakdown and video watching stats).`,
-      `Note: the product can be seen in action from a student's perspective at 1 minute 58 seconds into the linked video.`,
+      `Note: the product can be seen in action from a student's perspective at 2 minutes into the linked video.`,
     ],
     photoUrl: "/imaginelearning-550x351-min.png",
     tags: ["react", "redux", "graphql"],
