@@ -26,9 +26,8 @@ export default function Home() {
         <span>View Code Sample</span>
       </a>
       <p className="font-normal text-2xl w-full md:w-2/3 text-gray-500 text-center leading-relaxed text-balance">
-        Please find a sampling of my work below. All products/projects listed
-        are actively being used (except for the demo site at the end) - not all
-        are freely accessible to the public.
+        Please find a sampling of my work below - not all are freely accessible
+        to the public. The list can be filtered by the tags below.
       </p>
       <Filter />
       <CardList />

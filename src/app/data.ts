@@ -33,7 +33,7 @@ export const projects = [
     id: "odyssey",
     title: "Odyssey Systems Consulting Group",
     content:
-      "I worked within the NAVAIR Cyber Warfare Program Office on a file transfer app (react/redux) based on security classification. I also worked on an internal angular app related to monthly financial statement processing.",
+      "I worked within the NAVAIR Cyber Warfare Program on a file transfer app (react/redux) based on  users' security clearance. I also helped in the creation of an internal company angular app related to processing monthly financial statements.",
     photoUrl: "/confidential.webp",
     tags: ["react", "redux", "typescript", "angular"],
     className: "[&_img]:opacity-20 [&_img]:bg-amber-400 [&_img]:grayscale",
@@ -73,7 +73,7 @@ export const projects = [
   {
     id: "hmh",
     title: "Houghton Mifflin Harcourt",
-    content: `This project involved working on a team to convert legacy Flash apps relating to online learning for young students over to React applications. I was one of three React resources brought in to help guide the Engineering team through their first dive into React application development as well as help in the conversions.`,
+    content: `This project involved working on the HMH engineering team to convert legacy Flash apps relating to online learning for young students over to React applications. I was one of three React resources brought in to help guide the team through their first dive into React application development as well as help in the conversions.`,
     photoUrl: "/hmh-550x336-min.png",
     tags: ["react", "redux", "redux-saga"],
     callToAction: {
@@ -105,8 +105,8 @@ export const projects = [
   },
   {
     id: "whats-awesome",
-    title: "Whats Awesome",
-    content: `Lorem ipsum sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
+    title: "What's Awesome",
+    content: `A recent side project I have been working on in order to get more experience with react server components. Discover what's awesome about people and places.`,
     photoUrl: "/whatsawesome.png",
     tags: [
       "react",
