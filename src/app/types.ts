@@ -7,7 +7,7 @@ export interface CallToAction {
 export interface Project {
   id: string;
   title: string;
-  content: string;
+  content: string | string[];
   photoUrl: string;
   tags: Array<string>;
   callToAction: CallToAction;
