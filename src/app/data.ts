@@ -114,7 +114,6 @@ export const projects = [
     photoUrl: "/whatsawesome.png",
     tags: [
       "react",
-      "zustand",
       "typescript",
       "nextjs",
       "react-server-components",
