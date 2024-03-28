@@ -109,8 +109,8 @@ export const projects = [
   },
   {
     id: "whats-awesome",
-    title: "What's Awesome",
-    content: `A recent side project I have been working on in order to get more experience with react server components. Discover what's awesome about people and places. Currently this is more of a proof-of-concept than a polished finished app.`,
+    title: "Blue Mushroom",
+    content: `A recent side project I have been working on in order to get more experience with react server components. Discover excellence in your area. Currently this is more of a proof-of-concept than a polished finished app.`,
     photoUrl: "/whatsawesome.png",
     tags: [
       "react",
@@ -119,10 +119,11 @@ export const projects = [
       "react-server-components",
       "tailwind",
       "storybook",
+      "google-maps-api"
     ],
     callToAction: {
       label: "Visit site",
-      href: "https://whatsawesome.vercel.app/",
+      href: "https://bluemushroom.vercel.app/",
     },
   },
   {
