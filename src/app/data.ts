@@ -23,7 +23,7 @@ export const projects = [
     id: "butcherbox",
     title: "ButcherBox",
     content:
-      "I worked on the engineering team responsible for the checkout flow for ButcherBox.com's storefront - it's powered by Shopify/Hydrogen and integrated with Contentful. The project involved migrating the old storefront to use Remix.js. I contributed to both the migration and addressed bugs/new features on the original storefont.",
+      "I worked on the engineering team responsible for the checkout flow for ButcherBox.com's storefront (Shopify/Hydrogen and integrated with Contentful). The project involved migrating the old storefront to use Remix.js. I contributed to both the migration and addressed bugs/new features on the original storefont.",
     photoUrl: "/butcherbox-526x381-min.png",
     tags: ["react", "typescript", "remix", "graphql", "storybook", "cypress"],
     callToAction: {
@@ -119,7 +119,7 @@ export const projects = [
       "react-server-components",
       "tailwind",
       "storybook",
-      "google-maps-api"
+      "google-maps-api",
     ],
     callToAction: {
       label: "Visit site",
